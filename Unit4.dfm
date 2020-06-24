@@ -1,0 +1,40 @@
+object gameForm2: TgameForm2
+  Left = 0
+  Top = 0
+  Caption = 'gameForm2'
+  ClientHeight = 465
+  ClientWidth = 561
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object bgGameForm2: TImage
+    Left = 0
+    Top = 0
+    Width = 561
+    Height = 465
+    Align = alClient
+    Stretch = True
+    ExplicitWidth = 449
+    ExplicitHeight = 441
+  end
+  object timeLabel: TLabel
+    Left = 24
+    Top = 120
+    Width = 6
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+end
